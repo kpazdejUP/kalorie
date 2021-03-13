@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator kalorii</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator kalorii</h1>
+    </header>
+    <main>
+       <div id="info1" class="blok">
+        <h3>Czym jest BMR:</h3>
+
+        BMR to wskaźnik podstawowej przemiany materii (polski skrót PPM), 
+        wskazuje najmniejsze dzienne zapotrzebowanie kaloryczne, 
+        dzięki któremu zachowamy podstawowe funkcje życiowe.
+        
+        <h3>Czym jest CMP:</h3>
+        
+        CPM dobowe zapotrzebowanie kaloryczne uwzględniające aktywnoś fizyczną.
+       </div>
+       <div id="info2" class="blok">
+           <h3>Oblicz dzienne zapotrzebowanie na kalorie</h3>
+           Płeć: <input type="radio" name="plec" id="k" value="k"> K
+                 <input type="radio" name="plec" id="m" value="m"> M <br><br>
+         Wiek: <input type="text" name="" id="wiek"> lata  <br><br>
+         Waga: <input type="text" name="" id="waga"> kg <br><br>
+         Wzrost: <input type="text" name="" id="wzrost"> cm<br><br>
+         
+         Poziom aktywność fizycznej: <br><br>
+         <select name="aktywnosc" id="aktywnosc">
+             <option value="1">brak aktywności, praca siedząca </option>
+             <option value="2">niska aktywność (praca siedząca i 1-2 treningi w tygodniu)</option>
+             <option value="3">średnia aktywność (praca siedząca i treningi 3-4 razy w tygodniu) </option>
+             <option value="4">wysoka aktywność (praca fizyczna i 3-4 treningi w tygodniu) </option>
+             <option value="5">bardzo wysoka aktywność (zawodowi sportowcy, osoby codziennie trenujące) </option>
+         </select> <br><br>
+
+         <button onclick="oblicz()">Oblicz</button> <br><br>
+         <p id="wynik"></p>
+         <p id="wynik2"></p>
+
+       </div>
+    </main>
+    
+    
+</body>
+</html>

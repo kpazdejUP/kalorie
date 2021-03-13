@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 85px;
+    font-size: 30px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+main {
+    background-image: url("sport.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.blok {
+    float: left;
+    width: 35%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.623);
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    border: 1.5px solid cornflowerblue;
+    padding: 15px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+}
+
+button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+input {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#wynik2 {
+    color: rgb(231, 63, 34);
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    border: 5px solid white;
+    width: 550px;
+    height: 60px;
+    margin-left: 500px;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+    -webkit-text-stroke: 1px red;
+}
